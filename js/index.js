@@ -35,3 +35,15 @@ function usrpas() {
 }
 document.oncontextmenu = new Function("return false");
 
+function names() {
+  var nombres = [];
+  var cont = "";
+  for (var i = 0; i <= 2; i++) {
+      var x = prompt("Ingresa tu nombre:");
+      nombres[i] = x;
+  }
+  for (var i = 0; i <= 2; i++) {
+      cont += nombres[i] + " ";
+  }
+  document.getElementById("here").innerHTML = cont;
+}

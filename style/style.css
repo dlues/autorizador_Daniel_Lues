@@ -70,4 +70,50 @@ form input[type="onclick"] {
   padding: 45px;
   border-radius: 15px;
 }
-/*# sourceMappingURL=style.css.map */
+
+nav ul li a:hover {
+  background: brown;
+  -webkit-transition: all 1.2s ease-in-out;
+  transition: all 1.2s ease-in-out;
+}
+
+#div-logo img {
+  width: auto;
+  height: auto;
+}
+#div-logo img:hover {
+  -webkit-transform: rotateY(360deg) scale(1);
+          transform: rotateY(360deg) scale(1);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
+}
+
+footer h3 {
+  grid-area: pie;
+}
+
+.footer-info {
+  color: white;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px;
+  background-color: #88b3e6;
+}
+
+
+.div-imagen1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: encabe2;
+  padding: 20px;
+}
